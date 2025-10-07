@@ -43,6 +43,7 @@ Operations View : TBA
 
 
 ## 📁 DBT Datapipeline achitecture 
-![Flowchart (2)](https://github.com/user-attachments/assets/fafe1dbb-a799-4a28-96ad-a86178a2214d)
+![Flowchart (3)](https://github.com/user-attachments/assets/36d5d7ab-56b4-44f6-89f5-5fb851d7a2d1)
+
 
 
