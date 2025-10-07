@@ -14,13 +14,23 @@ Operations View : TBA
 ```bash
 .
 ├── models/
-│   ├── staging/
+│   ├── staging_models/
 │   │   └── tbl_stg_order.sql
+        └── tbl_stg_order_details.sql
+        └── tbl_stg_product.sql
+        └── tbl_stg_users.sql
 │   ├── curated/
 │   │   ├── dimensions/
 │   │   │   └── tbl_dim_order.sql
+            └── tbl_dim_product.sql
+            └── tbl_dim_user.sql
 │   │   └── facts/
-│   │       └── tbl_fact_order_details.sql
+│   │       └── tbl_fact_order_product.sql
+│   └── schema.yml
+│   ├── metric/
+│   │   │   └── tbl_metric_order.sql
+│   │   │   └── tbl_metric_product.sql
+│   │   │   └── tbl_metric_user.sql
 │   └── schema.yml
 ├── macros/
 │   └── tests/
@@ -33,5 +43,6 @@ Operations View : TBA
 
 
 ## 📁 DBT Datapipeline achitecture 
-<img width="707" height="344" alt="image" src="https://github.com/user-attachments/assets/0b259819-865b-4a7c-a5d3-dd428c618310" />
+![Flowchart (2)](https://github.com/user-attachments/assets/fafe1dbb-a799-4a28-96ad-a86178a2214d)
+
 
