@@ -1,3 +1,8 @@
 Below is the plan to productionizing both dbt models and product-level demand forecast ML model:
 
-To put this model in prodction, we can schedule it to run daily or weekly using dbt Cloud or Airflow so it always pulls the latest sales and user data from Snowflake. The demand forecast part will genrate product level predictions and store them back in Snowflake for teams to use in dashboards or reports. These forecasts can help inventory and supply chain teams plan stock better, avoid stockouts or over ordering, and marketing can use it to plan promos when demand is expected to go up. Basically, it’ll help the buisness make faster and smarter decissions using data instead of guess work.
+To put this model in prodction, we can schedule it to run daily or weekly using dbt Cloud or Airflow
+so it always pulls the latest sales and user data from Snowflake. The demand forecast part will genrate 
+product level predictions and store them back in Snowflake for teams to use in dashboards or reports. 
+These forecasts can help inventory and supply chain teams plan stock better, avoid stockouts or over ordering, 
+and marketing can use it to plan promos when demand is expected to go up. Basically, 
+it’ll help the buisness make faster and smarter decissions using data instead of guess work.
